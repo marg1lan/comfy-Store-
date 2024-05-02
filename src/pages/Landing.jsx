@@ -3,7 +3,7 @@ import { Hero } from '../components'
 
 function Landing() {
   return (
-    <div>
+    <div className='align-content mt-9'>
       <Hero></Hero>
     </div>
   )
