@@ -1,0 +1,33 @@
+.image img{
+    width: 324px;
+    height: 192px;
+    border-radius: 8px;
+}
+.cards{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    width: 370px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: 40px;
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+.name h1{
+    margin-left: 90px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.price p{
+    margin-left: 140px;
+    font-size: 18px;
+    margin-top: 10px; 
+}
+.cardsss{
+    display:flex;
+    align-items: center;
+    gap: 60px;
+}

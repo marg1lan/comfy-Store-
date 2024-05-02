@@ -2,22 +2,20 @@ import React from "react";
 
 function About() {
   return (
-    <div>
-      <h1>Hello world about</h1>
-      <h3>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
-        laudantium similique nemo reprehenderit corrupti a obcaecati
-        necessitatibus maxime sequi ullam, sunt eos fugit quod ipsum iusto
-        veritatis odit exercitationem enim. Ipsum quo voluptatem earum iure
-        aspernatur doloribus. In dolorem, praesentium pariatur sint repellat
-        necessitatibus est facilis. Cumque, illo! Eius reiciendis non rerum,
-        repudiandae nemo, id nulla sit cum, corrupti recusandae facere!
-        Corporis, dolores et harum sit id non voluptatibus autem voluptas
-        excepturi velit possimus accusamus aliquam itaque natus laborum repellat
-        doloribus suscipit quae cumque laudantium inventore aliquid nisi
-        consequatur ea! Qui aliquid nulla ipsa beatae corporis enim repellendus
-        doloribus voluptate!
+    <div className="text-center mt-9">
+      <h1 className="text-7xl font-bold">We Love</h1>
+      <button className="btn btn-primary mt-9">Comfy</button>
+      <div className="desc  text-center">
+      <h3 className="mt-9 text-2xl">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+        consectetur ex error quidem nemo laboriosam modi, itaque consequuntur
+        ipsam veritatis nam quaerat magnam delectus deleniti quae, praesentium,
+        facilis laborum vero? Unde quasi, quod voluptatem quidem obcaecati
+        doloribus ducimus porro. Non adipisci, reprehenderit quo beatae
+        asperiores officiis dolorum suscipit ullam nesciunt doloribus pariatur
+        nulla! Inventore, cum. Veritatis culpa maiores voluptate ducimus!
       </h3>
+      </div>
     </div>
   );
 }
