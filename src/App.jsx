@@ -26,7 +26,7 @@ function App() {
           element: <About />,
         },
         {
-          path: "/product/:id",
+          path: "/products/:id",
           element: <SingleProduct/>,
           loader:SingleProductLoader
         },
