@@ -14,3 +14,11 @@ export const formatPrice = (price) => {
 
     return dollarAmount
 }
+
+export const generateAmountOptions = (number) => {
+    return Array.from({length:number} , (__,index) => {
+        let amount = index + 1
+
+        return <option key={index} value={amount}>{amount}</option>
+    })
+}
