@@ -6,4 +6,6 @@ export {default as Navlinks} from './Navlinks'
 export {default as Hero} from './Hero'
 export {default as ErrorElement} from './ErrorElement'
 export {default as FeaturedProducts} from './FeaturedProducts'
+export {default as ProductsContainer} from './ProductsContainer'
+
 
