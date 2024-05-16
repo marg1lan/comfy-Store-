@@ -1,0 +1,9 @@
+.links{
+    margin-left: -200px;
+    margin-right: 30px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
