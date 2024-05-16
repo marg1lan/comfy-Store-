@@ -42,7 +42,7 @@ function Card() {
           </div>
           <h5 className="chiziq">$250.00</h5>
           <div className="btns">
-            <button className="btn mt-9 bg-orange-600 hover:text-slate-950 w-60">
+            <button className="btn mt-9 bg-orange-600 hover:text-slate-950 hover:bg-orange-400 w-60">
               <i className="fa-solid fa-cart-shopping"></i>{" "}
               <span>Add To Cart</span>
             </button>
@@ -66,7 +66,9 @@ function Card() {
           <div className="modal-box">
             <div className="modall flex gap-7 align-content mt-7">
               {selectedImage && (
-                <img className="w-full h-full" src={selectedImage} alt="" />
+                <div>
+                  <img className="w-full h-full" src={selectedImage} alt="" />
+                </div>
               )}
             </div>
             <div></div>

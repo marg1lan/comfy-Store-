@@ -57,7 +57,7 @@ function Navbar() {
                   <span className=" cursor-pointer text-red-500">Delete</span>
                 </span>
                 <div className="card-actions">
-                  <button className="btn text-slate-200 bg-orange-600 hover:text-slate-950 btn-block">
+                  <button className="btn  hover:bg-orange-400 text-slate-200 bg-orange-600 hover:text-slate-950 btn-block">
                     Chekout
                   </button>
                 </div>
